@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Session Saver's Popup</title>
+    <style>
+      body {
+        font-size: 100%;
+        width:500px;
+        padding:10px;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div id="tabs">
+      <span style="font-size:20px;">You have <b id="no_of_tabs"></b> open tabs in the current Window.</span>
+      <button id="view"><span class=caret></span></button>
+      <ol id="tab_list" style="display:none"></ol>
+    </div>
+    <div id="options">
+      <button id="save">Save This Session</button>
+      <button id="open">Open Saved Session</button>
+    </div>
+    <script src="tabs.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
